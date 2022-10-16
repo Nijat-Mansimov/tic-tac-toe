@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Manrope:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+body {
+  background-color: #3e347c;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Manrope", sans-serif;
+  color: aqua;
+  font-size: 24px;
+}
+
+.gameName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials {
+  width: 80px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.again {
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 85%;
+  color: #fff;
+}
+
+i {
+  color: #fff;
+}
+
+.symbol {
+  margin: 0;
+  margin-left: 10%;
+  font-family: "Indie Flower", cursive;
+  color: #fff;
+  font-size: 96px;
+}
+
+.gameArena {
+  position: absolute;
+  padding-left: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 356px;
+  height: 385px;
+  background-color: #000000;
+  opacity: 50%;
+  border-radius: 42px;
+  -webkit-box-shadow: 21px 5px 50px -14px rgba(255, 255, 255, 0.5);
+  box-shadow: 21px 5px 50px -14px rgba(255, 255, 255, 0.5);
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 330px;
+  background-image: none;
+}
+
+/* --------------- ROW 1 --------------- */
+
+.row1 {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 360px;
+  height: 110px;
+}
+
+.xana1 {
+  width: 120px;
+  height: 110px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.xana2 {
+  width: 120px;
+  height: 110px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.xana3 {
+  width: 120px;
+  height: 110px;
+  border-bottom: 1px solid white;
+}
+
+/* -------------  ROW 2 -------------- */
+
+.row2 {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 360px;
+  height: 120px;
+}
+
+.xana4 {
+  width: 120px;
+  height: 120px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.xana5 {
+  width: 120px;
+  height: 120px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.xana6 {
+  width: 120px;
+  height: 120px;
+  border-bottom: 1px solid white;
+}
+
+/* -------------  ROW 3 -------------- */
+
+.row3 {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 360px;
+  height: 110px;
+}
+
+.xana7 {
+  width: 120px;
+  height: 110px;
+  border-right: 1px solid white;
+}
+.xana8 {
+  width: 120px;
+  height: 110px;
+  border-right: 1px solid white;
+}
+.xana9 {
+  width: 120px;
+  height: 110px;
+}
+
+h3 {
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  font-size: 85%;
+  color: #fff;
+}
+
+.ad,
+.fa-instagram,
+.fa-github,
+.fa-linkedin {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-linkedin:hover {
+  color: aqua;
+}
+a:hover {
+  color: aqua;
+}
+.fa-instagram:hover {
+  color: aqua;
+}
+.fa-github:hover {
+  color: aqua;
+}
+
+.success_container {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(30, 25, 61);
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  font-family: "Red Hat Display";
+  color: white;
+  width: 100px;
+  height: 30px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.success_message {
+  color: white;
+  font-family: "Red Hat Display";
+  margin-bottom: -10px;
+}
+
+button:hover {
+  width: 105px;
+  height: 35px;
+}
